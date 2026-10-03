@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta
+  name="description"
+  content="سياسة الخصوصية الخاصة ببوت كلانات S5B - صخب"
+>
+
+<title>سياسة الخصوصية | كلانات S5B</title>
+
+<style>
+
+:root{
+  --bg:#090d16;
+  --card:#101725;
+  --card2:#0c121f;
+  --border:rgba(255,255,255,.08);
+  --text:#f4f7fb;
+  --muted:#aab4c5;
+
+  --accent:#3f63ff;
+  --accent2:#15225e;
+
+  --success:#45d483;
+
+  --shadow:0 20px 60px rgba(0,0,0,.35);
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+  font-family:
+    "Segoe UI",
+    Tahoma,
+    Arial,
+    sans-serif;
+
+  background:
+
+    radial-gradient(
+      circle at top right,
+      rgba(63,99,255,.16),
+      transparent 35%
+    ),
+
+    radial-gradient(
+      circle at bottom left,
+      rgba(21,34,94,.18),
+      transparent 35%
+    ),
+
+    var(--bg);
+
+  color:var(--text);
+
+  line-height:1.9;
+
+  min-height:100vh;
+}
+
+.container{
+  width:min(1100px,92%);
+  margin:auto;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+header{
+  padding:70px 0 45px;
+  text-align:center;
+}
+
+.logo{
+
+  display:inline-flex;
+
+  align-items:center;
+  justify-content:center;
+
+  width:82px;
+  height:82px;
+
+  border-radius:24px;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      var(--accent),
+      var(--accent2)
+    );
+
+  color:#fff;
+
+  font-size:17px;
+
+  font-weight:900;
+
+  letter-spacing:1px;
+
+  box-shadow:
+    0 15px 40px rgba(63,99,255,.28);
+
+  margin-bottom:25px;
+}
+
+h1{
+
+  font-size:
+    clamp(30px,5vw,48px);
+
+  font-weight:900;
+
+  margin-bottom:10px;
+}
+
+.subtitle{
+
+  color:var(--muted);
+
+  font-size:16px;
+
+  max-width:700px;
+
+  margin:auto;
+}
+
+.badge{
+
+  display:inline-block;
+
+  margin-top:20px;
+
+  padding:7px 15px;
+
+  border:
+    1px solid var(--border);
+
+  border-radius:999px;
+
+  background:
+    rgba(255,255,255,.04);
+
+  color:#cbd4e4;
+
+  font-size:13px;
+}
+
+
+/* =========================
+   Main
+========================= */
+
+main{
+  padding-bottom:60px;
+}
+
+.policy{
+
+  display:grid;
+
+  gap:18px;
+}
+
+
+/* =========================
+   Cards
+========================= */
+
+.card{
+
+  background:
+
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,.025),
+      rgba(255,255,255,.01)
+    ),
+
+    var(--card);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:20px;
+
+  padding:28px;
+
+  box-shadow:var(--shadow);
+
+  transition:
+    transform .2s ease,
+    border-color .2s ease;
+}
+
+.card:hover{
+
+  transform:
+    translateY(-2px);
+
+  border-color:
+    rgba(63,99,255,.28);
+}
+
+.card h2{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+  font-size:21px;
+
+  margin-bottom:14px;
+}
+
+.number{
+
+  display:inline-flex;
+
+  align-items:center;
+  justify-content:center;
+
+  min-width:34px;
+  height:34px;
+
+  border-radius:10px;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      rgba(63,99,255,.20),
+      rgba(21,34,94,.35)
+    );
+
+  color:#9fb2ff;
+
+  font-size:14px;
+
+  font-weight:800;
+}
+
+.card p{
+
+  color:var(--muted);
+
+  font-size:15px;
+}
+
+.card p + p{
+  margin-top:10px;
+}
+
+
+/* =========================
+   Lists
+========================= */
+
+.list{
+
+  margin-top:12px;
+
+  display:grid;
+
+  gap:10px;
+}
+
+.item{
+
+  display:flex;
+
+  gap:12px;
+
+  align-items:flex-start;
+
+  padding:14px 16px;
+
+  background:var(--card2);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:14px;
+
+  color:var(--muted);
+
+  font-size:14px;
+}
+
+.item::before{
+
+  content:"✓";
+
+  flex:none;
+
+  width:24px;
+  height:24px;
+
+  display:flex;
+
+  align-items:center;
+  justify-content:center;
+
+  border-radius:7px;
+
+  background:
+    rgba(69,212,131,.12);
+
+  color:var(--success);
+
+  font-weight:900;
+}
+
+.item span{
+  color:#c0c9dc;
+}
+
+
+/* =========================
+   Notice
+========================= */
+
+.notice{
+
+  margin-top:16px;
+
+  padding:17px 18px;
+
+  border-radius:15px;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      rgba(63,99,255,.10),
+      rgba(21,34,94,.12)
+    );
+
+  border:
+    1px solid rgba(63,99,255,.20);
+
+  color:#cdd5e5;
+
+  font-size:14px;
+}
+
+.notice strong{
+  color:#fff;
+}
+
+
+/* =========================
+   Contact
+========================= */
+
+.contact{
+
+  display:grid;
+
+  grid-template-columns:
+    repeat(2,minmax(0,1fr));
+
+  gap:14px;
+
+  margin-top:16px;
+}
+
+.contact-box{
+
+  padding:18px;
+
+  background:var(--card2);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:15px;
+}
+
+.contact-box strong{
+
+  display:block;
+
+  margin-bottom:4px;
+
+  color:#fff;
+}
+
+.contact-box span{
+
+  color:var(--muted);
+
+  font-size:14px;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer{
+
+  text-align:center;
+
+  padding:
+    25px 15px 45px;
+
+  color:#788398;
+
+  font-size:13px;
+}
+
+footer strong{
+  color:#aeb8ca;
+}
+
+
+/* =========================
+   Responsive
+========================= */
+
+@media(max-width:700px){
+
+  header{
+    padding:45px 0 30px;
+  }
+
+  .logo{
+
+    width:68px;
+    height:68px;
+
+    border-radius:20px;
+
+    font-size:15px;
+  }
+
+  .card{
+
+    padding:22px 18px;
+
+    border-radius:17px;
+  }
+
+  .card h2{
+    font-size:18px;
+  }
+
+  .card p{
+    font-size:14px;
+  }
+
+  .contact{
+    grid-template-columns:1fr;
+  }
+
+  .item{
+    font-size:13px;
+  }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+  <div class="container">
+
+    <div class="logo">
+      S5B
+    </div>
+
+    <h1>
+      سياسة الخصوصية
+    </h1>
+
+    <p class="subtitle">
+      توضح هذه السياسة كيفية تعامل بوت كلانات
+      التابع لسيرفر S5B — صخب مع المعلومات والبيانات
+      المرتبطة باستخدام البوت داخل Discord.
+    </p>
+
+    <div class="badge">
+      آخر تحديث: 3 أكتوبر 2026
+    </div>
+
+  </div>
+
+</header>
+
+
+<main>
+
+<div class="container">
+
+<div class="policy">
+
+
+<!-- =========================
+     1
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">1</span>
+    مقدمة
+  </h2>
+
+  <p>
+    مرحبًا بك في بوت كلانات الخاص بسيرفر
+    <strong>S5B — صخب</strong>.
+  </p>
+
+  <p>
+    نحرص على التعامل مع المعلومات المرتبطة
+    باستخدام البوت بطريقة مسؤولة، ولا يتم جمع
+    البيانات إلا بالقدر اللازم لتشغيل وظائف البوت
+    وأنظمته المختلفة.
+  </p>
+
+  <p>
+    باستخدامك للبوت أو تفاعلك مع أنظمته، فإنك
+    توافق على طريقة معالجة المعلومات الموضحة
+    في سياسة الخصوصية هذه.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     2
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">2</span>
+    المعلومات التي يتم معالجتها
+  </h2>
+
+  <p>
+    قد يقوم بوت كلانات بمعالجة بعض المعلومات
+    الضرورية لتشغيل أنظمة التقديم والتوب
+    ومتابعة النشاط داخل رومات الكلانات.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        معرف المستخدم في Discord (User ID).
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        معرف الخادم والقنوات المستخدمة من قبل البوت.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        معلومات العضو الأساسية اللازمة لتنفيذ
+        وظائف البوت.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        تاريخ ووقت تقديم المستخدم على الكلان.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        الوقت الذي يقضيه المستخدم داخل رومات
+        الكلانات المخصصة للتوب.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إجمالي وقت النشاط اليومي والأسبوعي
+        المرتبط بالكلانات.
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     3
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">3</span>
+    استخدام المعلومات
+  </h2>
+
+  <p>
+    يتم استخدام المعلومات التي تتم معالجتها
+    لتشغيل وظائف بوت كلانات داخل سيرفر S5B.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        إدارة وتنظيم تقديمات الكلانات.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        تسجيل وقت نشاط الأعضاء داخل رومات الكلانات.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        حساب التوب الأسبوعي للأعضاء والكلانات.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        عرض إحصائيات النشاط والترتيب.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        تطبيق فترة الانتظار الخاصة بالتقديمات.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إرسال إشعارات ورسائل مرتبطة بحالة التقديم.
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     4
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">4</span>
+    بيانات التقديم على الكلانات
+  </h2>
+
+  <p>
+    عند استخدام نظام التقديم على الكلان، يقوم
+    البوت بتسجيل معرف المستخدم ووقت التقديم
+    من أجل إدارة عملية التقديم.
+  </p>
+
+  <p>
+    يتم استخدام هذه المعلومات أيضًا لتطبيق
+    فترة الانتظار المحددة بين التقديمات.
+  </p>
+
+  <div class="notice">
+
+    <strong>فترة التقديم:</strong>
+
+    يتم تطبيق فترة انتظار مدتها 7 أيام
+    بين تقديم المستخدم والتقديم التالي.
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     5
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">5</span>
+    معالجة طلبات الكلانات
+  </h2>
+
+  <p>
+    عند إرسال المستخدم لتقديم على كلان، قد يتم
+    عرض معرف المستخدم وبيانات التقديم للمسؤولين
+    المخولين بمراجعة الطلب.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        إرسال التقديم إلى روم التقديمات المحدد.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        تمكين المسؤولين من قبول أو رفض الطلب.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        تسجيل حالة الطلب بعد اتخاذ الإجراء.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إرسال رسالة للمستخدم عند القبول أو الرفض
+        عند الحاجة.
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     6
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">6</span>
+    الرسائل والمحتوى
+  </h2>
+
+  <p>
+    يستخدم البوت نظام أوامر الرسائل في بعض
+    وظائفه، مثل أوامر التوب والتوب المباشر.
+  </p>
+
+  <p>
+    قد تتم معالجة محتوى الرسالة لحظة إرسالها
+    للتحقق من الأمر المطلوب تنفيذه.
+  </p>
+
+  <p>
+    لا يقوم نظام بوت الكلانات بتخزين جميع رسائل
+    المستخدمين بشكل دائم كقاعدة بيانات لمحتوى
+    المحادثات.
+  </p>
+
+  <div class="notice">
+
+    <strong>مهم:</strong>
+
+    الوصول إلى محتوى الرسائل يستخدم لتنفيذ
+    أوامر البوت المطلوبة، وليس لأغراض إعلانية
+    أو تجارية.
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     7
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">7</span>
+    تتبع النشاط الصوتي
+  </h2>
+
+  <p>
+    يحتوي البوت على نظام لحساب وقت نشاط الأعضاء
+    داخل رومات الكلانات المحددة.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        يتم التعرف على دخول العضو إلى روم كلان.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        يتم التعرف على انتقال العضو بين رومات الكلانات.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        يتم تسجيل وقت النشاط بالدقائق.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        يتم احتساب النشاط للمستخدم وللكلان المرتبط
+        بالروم.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        يتم تجاهل حساب البوتات ضمن نظام النشاط.
+      </span>
+    </div>
+
+  </div>
+
+  <div class="notice">
+
+    <strong>مثال:</strong>
+
+    إذا قضى العضو ساعة داخل روم الكلان،
+    يتم احتساب 60 دقيقة من النشاط.
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     8
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">8</span>
+    التوب والإحصائيات
+  </h2>
+
+  <p>
+    يقوم البوت بتسجيل إحصائيات النشاط لاستخدامها
+    في أنظمة التوب الأسبوعي والتوب العام.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        إجمالي دقائق نشاط المستخدم.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إجمالي دقائق نشاط الكلان.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        النشاط المسجل حسب التاريخ.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        بداية الأسبوع المستخدم لحساب التوب الأسبوعي.
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     9
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">9</span>
+    مشاركة المعلومات
+  </h2>
+
+  <p>
+    لا يتم بيع بيانات المستخدمين أو تأجيرها
+    أو استخدامها لأغراض تجارية.
+  </p>
+
+  <p>
+    قد يتم عرض بعض المعلومات داخل سيرفر Discord
+    عندما تكون جزءًا من وظائف البوت، مثل ترتيب
+    الأعضاء أو الكلانات في التوب.
+  </p>
+
+  <p>
+    كما قد يتم إرسال معلومات التقديم إلى المسؤولين
+    المخولين بمراجعة طلبات الكلانات.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     10
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">10</span>
+    الرسائل الخاصة
+  </h2>
+
+  <p>
+    قد يقوم البوت بإرسال رسائل خاصة للمستخدمين
+    عند وجود إجراء متعلق بالتقديم.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        إشعار بقبول التقديم.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إشعار برفض التقديم.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        توضيح سبب الرفض عندما يتم إدخاله من المسؤول.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إشعارات مرتبطة بإكمال إجراءات التقديم.
+      </span>
+    </div>
+
+  </div>
+
+  <p>
+    يعتمد وصول هذه الرسائل على إعدادات الخصوصية
+    في حساب Discord الخاص بالمستخدم.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     11
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">11</span>
+    تخزين البيانات
+  </h2>
+
+  <p>
+    قد يتم تخزين بعض البيانات محليًا بواسطة
+    نظام البوت من أجل استمرار عمل وظائفه بعد
+    إعادة تشغيل البوت.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        بيانات تقديم المستخدم وفترة الانتظار الخاصة به.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إحصائيات وقت نشاط الأعضاء.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        إحصائيات وقت نشاط الكلانات.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        بيانات بداية الأسبوع المستخدمة في التوب الأسبوعي.
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     12
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">12</span>
+    مدة الاحتفاظ بالبيانات
+  </h2>
+
+  <p>
+    يتم الاحتفاظ بالبيانات المخزنة طالما كانت
+    هناك حاجة إليها لتشغيل أنظمة البوت وإحصائياته
+    أو لأغراض الإدارة والتنظيم داخل السيرفر.
+  </p>
+
+  <p>
+    قد يتم حذف البيانات أو تعديلها عند تغيير
+    نظام البوت أو عند عدم الحاجة إليها.
+  </p>
+
+  <div class="notice">
+
+    <strong>ملاحظة:</strong>
+
+    تختلف مدة الاحتفاظ حسب نوع البيانات
+    والغرض الذي تستخدم من أجله.
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     13
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">13</span>
+    الأمان
+  </h2>
+
+  <p>
+    يتم اتخاذ إجراءات مناسبة للمساعدة في حماية
+    البيانات التي يعالجها البوت من الوصول غير
+    المصرح به أو الاستخدام غير المناسب.
+  </p>
+
+  <p>
+    ومع ذلك، لا يمكن ضمان أن أي نظام إلكتروني
+    سيكون آمنًا بنسبة 100%.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     14
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">14</span>
+    خدمات Discord
+  </h2>
+
+  <p>
+    يعمل بوت كلانات ضمن منصة Discord، ولذلك فإن
+    استخدام البوت يخضع أيضًا لشروط وسياسات Discord.
+  </p>
+
+  <p>
+    بوت كلانات وسيرفر S5B — صخب ليسا تابعين
+    لشركة Discord ولا يمثلانها بشكل رسمي.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     15
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">15</span>
+    حقوق المستخدم
+  </h2>
+
+  <p>
+    يمكنك التواصل مع إدارة سيرفر S5B في حال
+    كان لديك استفسار متعلق بالمعلومات التي
+    تتم معالجتها بواسطة بوت كلانات.
+  </p>
+
+  <div class="list">
+
+    <div class="item">
+      <span>
+        الاستفسار عن نوع البيانات التي تتم معالجتها.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        الاستفسار عن طريقة استخدام البيانات.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        الإبلاغ عن مشكلة متعلقة بالخصوصية.
+      </span>
+    </div>
+
+    <div class="item">
+      <span>
+        طلب مراجعة البيانات المرتبطة بالمستخدم
+        عندما يكون ذلك ممكنًا.
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     16
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">16</span>
+    خصوصية القاصرين
+  </h2>
+
+  <p>
+    لا يهدف بوت كلانات إلى جمع معلومات شخصية
+    حساسة من الأطفال أو القاصرين بشكل متعمد.
+  </p>
+
+  <p>
+    إذا كنت تعتقد أن بيانات أحد المستخدمين تم
+    التعامل معها بطريقة غير مناسبة، يرجى التواصل
+    مع إدارة السيرفر لمراجعة الحالة.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     17
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">17</span>
+    التعديلات على سياسة الخصوصية
+  </h2>
+
+  <p>
+    قد يتم تحديث سياسة الخصوصية هذه من وقت لآخر
+    نتيجة إضافة ميزات جديدة أو إجراء تغييرات
+    على طريقة عمل بوت كلانات.
+  </p>
+
+  <p>
+    سيتم تحديث تاريخ آخر تعديل في أعلى الصفحة
+    عند إجراء تغييرات مهمة على السياسة.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     18
+========================= -->
+
+<section class="card">
+
+  <h2>
+    <span class="number">18</span>
+    التواصل
+  </h2>
+
+  <p>
+    إذا كان لديك أي سؤال أو استفسار حول سياسة
+    الخصوصية أو طريقة تعامل بوت كلانات مع البيانات،
+    يمكنك التواصل مع إدارة سيرفر S5B — صخب.
+  </p>
+
+  <div class="contact">
+
+    <div class="contact-box">
+
+      <strong>البوت</strong>
+
+      <span>
+        بوت كلانات
+      </span>
+
+    </div>
+
+    <div class="contact-box">
+
+      <strong>السيرفر</strong>
+
+      <span>
+        S5B — صخب
+      </span>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+</div>
+
+</div>
+
+</main>
+
+
+<footer>
+
+  © 2026
+  <strong>بوت كلانات | S5B — صخب</strong>
+  — جميع الحقوق محفوظة
+
+</footer>
+
+
+</body>
+</html>
